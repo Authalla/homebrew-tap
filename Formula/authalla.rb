@@ -1,25 +1,25 @@
 class Authalla < Formula
   desc "CLI tool for the Authalla OAuth2 API"
   homepage "https://authalla.com"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/authalla/authalla-cli/releases/download/v0.1.0/authalla-aarch64-apple-darwin.tar.xz"
-      sha256 "ef9b49d6d66b9301662acb9ffa0005519e9663ca292ff6c7f176cec52c006e85"
+      url "https://github.com/authalla/authalla-cli/releases/download/v0.2.0/authalla-aarch64-apple-darwin.tar.xz"
+      sha256 "988438e454158b0c49b96896bff1be3af115cb9ddf5f28b116498f3cc84af27c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/authalla/authalla-cli/releases/download/v0.1.0/authalla-x86_64-apple-darwin.tar.xz"
-      sha256 "f16d57741046d54373a53255927bfd07708602b938b163cdffef91b6bc24c2a7"
+      url "https://github.com/authalla/authalla-cli/releases/download/v0.2.0/authalla-x86_64-apple-darwin.tar.xz"
+      sha256 "d30686a05116ba71224d7f062dd156995d96fcbe854a16f1d4b953a6cebeffbb"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/authalla/authalla-cli/releases/download/v0.1.0/authalla-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "30517ead487d85b3f042158347a6a111638b56642956d884a4733b5b8fcebfdd"
+      url "https://github.com/authalla/authalla-cli/releases/download/v0.2.0/authalla-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "bf0a49416d243aba9a1cdb1ff8c88e5dc197712dfc53091eaded636f963aeb3b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/authalla/authalla-cli/releases/download/v0.1.0/authalla-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b7f9c7b5ed05c4f966a7d05f4c4c05a9d8288bba518de89a849c87b97d457404"
+      url "https://github.com/authalla/authalla-cli/releases/download/v0.2.0/authalla-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "257d83c67ee56aa4e90a1e78a85f04a8e00daa92e262802b7eb277f4bffa5ed6"
     end
   end
   license "MIT"
